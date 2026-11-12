@@ -1,0 +1,40 @@
+# One coordinated actuated intersection: 45-mph arterial (phases 2/6), 35-mph side street (4/8),
+# protected lefts (1/5 arterial, 3/7 side street). Cycle 100 s, coordinated phases 2+6.
+timing:
+  int_id: 1
+  name: Main St & 3rd Ave
+  cycle_s: 100
+  offset_s: 0
+  phases:
+    1: {split_s: 16, min_green_s: 5, passage_s: 2.5, yellow_s: 3.5, red_clear_s: 2.5}
+    2: {split_s: 34, min_green_s: 15, passage_s: 3.0, yellow_s: 4.5, red_clear_s: 2.0}
+    3: {split_s: 13, min_green_s: 5, passage_s: 2.5, yellow_s: 3.5, red_clear_s: 2.5}
+    4: {split_s: 37, min_green_s: 8, passage_s: 3.0, yellow_s: 4.0, red_clear_s: 2.5}
+    5: {split_s: 16, min_green_s: 5, passage_s: 2.5, yellow_s: 3.5, red_clear_s: 2.5}
+    6: {split_s: 34, min_green_s: 15, passage_s: 3.0, yellow_s: 4.5, red_clear_s: 2.0}
+    7: {split_s: 13, min_green_s: 5, passage_s: 2.5, yellow_s: 3.5, red_clear_s: 2.5}
+    8: {split_s: 37, min_green_s: 8, passage_s: 3.0, yellow_s: 4.0, red_clear_s: 2.5}
+
+# Geometry and agency standards the guard checks SETs against.
+policy:
+  write_sources: ["10.0.0.10"]
+  phases:
+    1: {approach_speed_mph: 30, crossing_width_m: 25, min_green_floor_s: 4, max_green_cap_s: 30}
+    2: {approach_speed_mph: 45, crossing_width_m: 22, min_green_floor_s: 10, max_green_cap_s: 60}
+    3: {approach_speed_mph: 30, crossing_width_m: 25, min_green_floor_s: 4, max_green_cap_s: 30}
+    4: {approach_speed_mph: 35, crossing_width_m: 30, min_green_floor_s: 6, max_green_cap_s: 50}
+    5: {approach_speed_mph: 30, crossing_width_m: 25, min_green_floor_s: 4, max_green_cap_s: 30}
+    6: {approach_speed_mph: 45, crossing_width_m: 22, min_green_floor_s: 10, max_green_cap_s: 60}
+    7: {approach_speed_mph: 30, crossing_width_m: 25, min_green_floor_s: 4, max_green_cap_s: 30}
+    8: {approach_speed_mph: 35, crossing_width_m: 30, min_green_floor_s: 6, max_green_cap_s: 50}
+
+# Hourly volumes per phase (veh/h), lanes.
+approaches:
+  1: {vph: 90, lanes: 1, sat_vphpl: 1700}
+  2: {vph: 650, lanes: 2}
+  3: {vph: 50, lanes: 1, sat_vphpl: 1700}
+  4: {vph: 350, lanes: 1}
+  5: {vph: 100, lanes: 1, sat_vphpl: 1700}
+  6: {vph: 600, lanes: 2}
+  7: {vph: 40, lanes: 1, sat_vphpl: 1700}
+  8: {vph: 300, lanes: 1}

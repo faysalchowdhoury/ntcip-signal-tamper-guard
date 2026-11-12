@@ -1,0 +1,413 @@
+{
+  "runs": 155,
+  "fp": {
+    "hours": 20,
+    "blocked_per_h": 0.0,
+    "alerted_per_h": 0.0,
+    "monitor_alarms_per_h": 0.0,
+    "fallbacks_per_h": 0.0,
+    "behaviour_windows_flagged_per_h": 0.0
+  },
+  "behaviour": {
+    "short_yellow": {
+      "detected": 0.0,
+      "detect_s": null
+    },
+    "low_min_green": {
+      "detected": 0.0,
+      "detect_s": null
+    },
+    "hold_coord": {
+      "detected": 0.6666666666666666,
+      "detect_s": 1380.0
+    },
+    "omit_side": {
+      "detected": 0.6666666666666666,
+      "detect_s": 1380.0
+    },
+    "rapid_cycle": {
+      "detected": 1.0,
+      "detect_s": 60.0
+    },
+    "flash": {
+      "detected": 0.0,
+      "detect_s": null
+    },
+    "call_trickle": {
+      "detected": 1.0,
+      "detect_s": 620.0
+    },
+    "replay": {
+      "detected": 0.0,
+      "detect_s": null
+    }
+  },
+  "latency": {
+    "set_allowed_p50_us": 257.1000004536472,
+    "set_allowed_p99_us": 3004.7580070822855,
+    "set_blocked_p50_us": 83.00000263261609,
+    "set_blocked_p99_us": 935.560997168078
+  },
+  "agg": [
+    {
+      "scenario": "benign",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "benign",
+      "mode": "monitor",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "benign",
+      "mode": "off",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "benign",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "call_trickle",
+      "mode": "full",
+      "mean_delay_s": 41.903376092812756,
+      "max_wait_s": 396.19999999963966,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "call_trickle",
+      "mode": "monitor",
+      "mean_delay_s": 41.903376092812756,
+      "max_wait_s": 396.19999999963966,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "call_trickle",
+      "mode": "off",
+      "mean_delay_s": 41.903376092812756,
+      "max_wait_s": 396.19999999963966,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "call_trickle",
+      "mode": "rules",
+      "mean_delay_s": 41.903376092812756,
+      "max_wait_s": 396.19999999963966,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "flash",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "flash",
+      "mode": "monitor",
+      "mean_delay_s": 143.11243958708374,
+      "max_wait_s": 1253.6999999988598,
+      "unsafe_yellows": 0.0,
+      "flash_min": 15.001666666668934,
+      "blocked": 0.0,
+      "detect_s": 0.10000000000400178
+    },
+    {
+      "scenario": "flash",
+      "mode": "off",
+      "mean_delay_s": 337.47099929800225,
+      "max_wait_s": 2499.399999997727,
+      "unsafe_yellows": 0.0,
+      "flash_min": 39.99999999998188,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "flash",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "hold_coord",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 40.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "hold_coord",
+      "mode": "monitor",
+      "mean_delay_s": 246.86103224300504,
+      "max_wait_s": 2371.8999999978428,
+      "unsafe_yellows": 0.0,
+      "flash_min": 27.50166666665991,
+      "blocked": 0.0,
+      "detect_s": 149.2999999998683
+    },
+    {
+      "scenario": "hold_coord",
+      "mode": "off",
+      "mean_delay_s": 381.4128825848799,
+      "max_wait_s": 2499.399999997727,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "hold_coord",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 40.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "low_min_green",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "low_min_green",
+      "mode": "monitor",
+      "mean_delay_s": 99.32299889491132,
+      "max_wait_s": 786.3999999992848,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "low_min_green",
+      "mode": "off",
+      "mean_delay_s": 99.32299889491132,
+      "max_wait_s": 786.3999999992848,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "low_min_green",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "omit_side",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 40.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "omit_side",
+      "mode": "monitor",
+      "mean_delay_s": 220.06494822524004,
+      "max_wait_s": 1609.1999999985364,
+      "unsafe_yellows": 0.0,
+      "flash_min": 24.107777777774107,
+      "blocked": 0.0,
+      "detect_s": 217.36666666647307
+    },
+    {
+      "scenario": "omit_side",
+      "mode": "off",
+      "mean_delay_s": 211.36565905617957,
+      "max_wait_s": 2049.066666664803,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "omit_side",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 40.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "rapid_cycle",
+      "mode": "full",
+      "mean_delay_s": 44.373800878636416,
+      "max_wait_s": 444.2666666662626,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1592.6666666666667,
+      "detect_s": 11.999999999993179
+    },
+    {
+      "scenario": "rapid_cycle",
+      "mode": "monitor",
+      "mean_delay_s": 265.97816034073935,
+      "max_wait_s": 2247.4666666646226,
+      "unsafe_yellows": 0.0,
+      "flash_min": 33.471666666654485,
+      "blocked": 0.0,
+      "detect_s": 70.49999999993997
+    },
+    {
+      "scenario": "rapid_cycle",
+      "mode": "off",
+      "mean_delay_s": 255.73081507479398,
+      "max_wait_s": 1781.6999999983793,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "rapid_cycle",
+      "mode": "rules",
+      "mean_delay_s": 255.73081507479398,
+      "max_wait_s": 1781.6999999983793,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1592.6666666666667,
+      "detect_s": 11.999999999993179
+    },
+    {
+      "scenario": "replay",
+      "mode": "full",
+      "mean_delay_s": 43.03166790985142,
+      "max_wait_s": 394.6666666663077,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "replay",
+      "mode": "monitor",
+      "mean_delay_s": 43.03166790985142,
+      "max_wait_s": 394.6666666663077,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "replay",
+      "mode": "off",
+      "mean_delay_s": 43.03166790985142,
+      "max_wait_s": 394.6666666663077,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "replay",
+      "mode": "rules",
+      "mean_delay_s": 43.03166790985142,
+      "max_wait_s": 394.6666666663077,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "short_yellow",
+      "mode": "full",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    },
+    {
+      "scenario": "short_yellow",
+      "mode": "monitor",
+      "mean_delay_s": 136.4659422388078,
+      "max_wait_s": 1270.233333332178,
+      "unsafe_yellows": 2.0,
+      "flash_min": 15.001666666668934,
+      "blocked": 0.0,
+      "detect_s": 31.99999999997499
+    },
+    {
+      "scenario": "short_yellow",
+      "mode": "off",
+      "mean_delay_s": 40.861676248156826,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 48.0,
+      "flash_min": 0.0,
+      "blocked": 0.0,
+      "detect_s": NaN
+    },
+    {
+      "scenario": "short_yellow",
+      "mode": "rules",
+      "mean_delay_s": 41.329312490663305,
+      "max_wait_s": 395.4333333329737,
+      "unsafe_yellows": 0.0,
+      "flash_min": 0.0,
+      "blocked": 1.0,
+      "detect_s": 4.092726157978177e-12
+    }
+  ]
+}
